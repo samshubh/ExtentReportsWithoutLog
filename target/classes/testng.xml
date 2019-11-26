@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Extent Reports Failed Screenshot" verbose="1" >
+  
+  
+  <listeners>
+  
+    <listener class-name="com.qa.util.ExtentReporterNG"/>
+  
+  </listeners>
+  
+  <test name="Extent report screenshot" >
+    <classes>
+      
+      <class name="com.qa.test.ExtentReportScreenshot"/>
+    
+    </classes>
+    
+ </test>
+</suite>
